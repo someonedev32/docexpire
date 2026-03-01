@@ -2,84 +2,166 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Privacy Policy</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy — DocExpire Reminder</title>
+  <meta name="description" content="Privacy Policy for DocExpire Reminder" />
   <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.6;margin:0}
-    main{max-width:920px;margin:0 auto;padding:28px 18px}
-    h1{font-size:28px;margin:0 0 10px}
-    h2{font-size:18px;margin:22px 0 8px}
-    p,li{font-size:14.5px}
-    .meta{font-size:13px;opacity:.8;margin-bottom:18px}
-    .box{border:1px solid rgba(127,127,127,.25);border-radius:12px;padding:14px;margin:14px 0}
-    a{text-decoration:none} a:hover{text-decoration:underline}
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --card: #f9fafb;
+      --border: #e5e7eb;
+      --link: #2563eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1220;
+        --text: #e5e7eb;
+        --muted: #9ca3af;
+        --card: #0f1a30;
+        --border: #24304a;
+        --link: #60a5fa;
+      }
+    }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      padding: 40px 16px 16px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(37,99,235,0.08), transparent 60%);
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+    }
+    h1 { margin: 0 0 8px; font-size: 32px; letter-spacing: -0.02em; }
+    .sub { margin: 0; color: var(--muted); }
+    section {
+      margin-top: 18px;
+      padding: 18px 16px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+    h2 { margin: 0 0 10px; font-size: 18px; }
+    ul { margin: 8px 0 0 20px; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 16px 40px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
   </style>
 </head>
+
 <body>
+  <header>
+    <main style="padding-bottom: 0;">
+      <h1>Privacy Policy</h1>
+      <p class="sub"><strong>DocExpire Reminder</strong></p>
+      <p class="sub">Last updated: <strong>March 1, 2026</strong></p>
+    </main>
+  </header>
+
   <main>
-    <h1>Privacy Policy</h1>
-    <div class="meta">
-      Effective date: <strong>2026-02-28</strong><br>
-      Contact: <a href="mailto:support@inovation.app">support@inovation.app</a>
-    </div>
+    <section>
+      <p>
+        DocExpire Reminder respects your privacy. This Privacy Policy explains how information is handled when you use the
+        DocExpire Reminder mobile application (the “App”).
+      </p>
+    </section>
 
-    <div class="box">
-      <p><strong>Summary:</strong> This app works <strong>fully offline</strong>. We <strong>do not collect</strong>, <strong>store</strong>, <strong>share</strong>, or <strong>sell</strong> personal data. Your document entries stay <strong>on your device</strong>.</p>
-    </div>
+    <section>
+      <h2>Information We Collect</h2>
+      <p>The App is designed to work without collecting personal data.</p>
+      <p>We do <strong>not</strong> collect, store, or share:</p>
+      <ul>
+        <li>Names</li>
+        <li>Email addresses</li>
+        <li>Phone numbers</li>
+        <li>Physical addresses</li>
+        <li>Identification documents</li>
+        <li>Payment information</li>
+      </ul>
+      <p>
+        Any reminder data you create (such as titles, dates, and notes) is stored <strong>locally on your device</strong>.
+      </p>
+    </section>
 
-    <h2>1) Data We Collect</h2>
-    <p><strong>We collect no personal data.</strong></p>
-    <p>
-      The app does not use accounts, servers, cloud sync, or any database controlled by us.
-      Any document information you enter (e.g., document name/type, expiration date, notes) is stored locally on your device and is not transmitted to us.
-    </p>
+    <section>
+      <h2>Notifications</h2>
+      <p>
+        The App uses <strong>local notifications</strong> to remind you about upcoming expiration dates.
+      </p>
+      <ul>
+        <li>Notifications are generated and managed entirely on your device</li>
+        <li>No notification data is sent to external servers</li>
+      </ul>
+      <p>
+        You can manage notification permissions at any time in your device settings.
+      </p>
+    </section>
 
-    <h2>2) Network & Third-Party Services</h2>
-    <p>
-      The app does not send your data to any external server. We do not use third-party analytics, advertising SDKs, or tracking.
-      If you open external links (e.g., this policy page), those websites may collect data under their own policies.
-    </p>
+    <section>
+      <h2>Third-Party Services</h2>
+      <p>
+        The App does <strong>not</strong> use third-party analytics, advertising SDKs, or tracking tools.
+      </p>
+      <p>No data is shared with third parties.</p>
+    </section>
 
-    <h2>3) Notifications (Reminders)</h2>
-    <p>
-      If you enable reminders, the app uses <strong>local notifications</strong> on your device to alert you before an expiration date.
-      We do not access, read, or upload your notification content.
-    </p>
+    <section>
+      <h2>Data Security</h2>
+      <p>
+        Since the App does not collect or transmit personal data, there is no external storage of user information.
+        Your reminder data remains under your control on your device.
+      </p>
+    </section>
 
-    <h2>4) Data Storage</h2>
-    <p>
-      All app data is stored <strong>locally on your device</strong>. Uninstalling the app typically removes the local data from your device.
-      (Device backups are controlled by your operating system settings.)
-    </p>
+    <section>
+      <h2>Children’s Privacy</h2>
+      <p>
+        The App does not knowingly collect any information from children under the age of 13.
+      </p>
+    </section>
 
-    <h2>5) Sharing</h2>
-    <p>
-      We do not share your information because we do not collect it.
-    </p>
+    <section>
+      <h2>Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated “Last updated” date.
+      </p>
+    </section>
 
-    <h2>6) Security</h2>
-    <p>
-      Since data remains on your device, your security depends on your device protections (passcode/biometrics).
-      We recommend enabling device security features.
-    </p>
-
-    <h2>7) Children’s Privacy</h2>
-    <p>
-      We do not knowingly collect personal data from children because the app does not collect any data at all.
-    </p>
-
-    <h2>8) Changes to This Policy</h2>
-    <p>
-      If the app’s functionality changes (for example, adding cloud sync or analytics), we will update this policy accordingly.
-      The effective date above reflects the latest version.
-    </p>
-
-    <h2>9) Contact</h2>
-    <p>
-      If you have questions about privacy, contact:
-      <br><strong>support@inovation.app</strong>
-      — <a href="mailto:support@inovation.app">support@inovation.app</a>
-    </p>
+    <section>
+      <h2>Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy, contact us at:
+        <br />
+        <a href="mailto:supoort@inovation.app">supoort@inovation.app</a>
+      </p>
+    </section>
   </main>
+
+  <footer>
+    <p>
+      © <span id="y"></span> DocExpire Reminder. All rights reserved.
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
